@@ -1,0 +1,34 @@
+{
+    "name": "jengo/h",
+    "description": "A smooth HTML generator for PHP with optional validation and auto-fixing",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jengo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "your.email@example.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "keywords": [
+        "html",
+        "generator",
+        "template",
+        "validation",
+        "auto-fixing"
+    ],
+    "scripts": {
+        "test": "phpunit",
+        "bench": "php tests/Benchmark/HTMLBenchmark.php"
+    }
+}
